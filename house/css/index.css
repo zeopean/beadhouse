@@ -1,0 +1,39 @@
+.main{
+    padding-top:60px ;
+    width: 100%;
+}
+
+/*header start*/
+.banner{
+    text-align: center;
+}
+
+.banner-img{
+    width: 95%;
+    height: auto;
+    text-align: center;
+}
+
+.header{
+    background-color: #99ccff;
+    color: #fff;
+}
+
+.header a{
+    color: #fff;
+}
+/* header end */
+
+
+
+/*content start*/
+.content{
+    margin:10px 0px ;
+}
+.content-child{
+    height: 200px;
+    border: 1px solid #e0e0e0;
+
+}
+
+/* end */
