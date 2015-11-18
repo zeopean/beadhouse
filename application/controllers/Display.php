@@ -55,6 +55,11 @@ class Display extends CI_Controller
     }
 
 
+    public function costList(){
+        //花费列表
+        $this->load->view('admin/housing/cost');
+    }
+
     public function roomList()
     {
         //房间列表
@@ -80,6 +85,14 @@ class Display extends CI_Controller
         $this->load->view('admin/emp/attendance');
 
     }
+
+
+    public function reception()
+    {
+        //接待列表
+        $this->load->view('admin/reception/reception');
+    }
+
 
 
 
