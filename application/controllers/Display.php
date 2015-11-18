@@ -46,6 +46,7 @@ class Display extends CI_Controller
     }
 
 
+
     public function standardList()
     {
         //收费标准列表
@@ -64,7 +65,7 @@ class Display extends CI_Controller
     public function employeeList()
     {
         //显示员工列表
-        $this->load->view('admin/housing/employee');
+        $this->load->view('admin/emp/employee');
     }
 
     public function performanceList()
