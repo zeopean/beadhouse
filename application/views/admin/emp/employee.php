@@ -53,34 +53,36 @@
             <table class="table table-striped table-bordered table-condensed">
                 <thead>
                 <tr>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
+                    <th><input type="checkbox" name=""/> </th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                    <th>入职时间</th>
+                    <th>离职时间</th>
+                    <th>工资</th>
+                    <th>职务</th>
+                    <th>婚姻状态</th>
+                    <th>学历</th>
+                    <th>专业</th>
+                    <th>操作</th>
+
                 </tr>
                 </thead>
                 <tr>
+                    <td><input type="checkbox" name=""/> </td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                 </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
+
 
             </table>
         </div>

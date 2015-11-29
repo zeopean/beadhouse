@@ -17,9 +17,9 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li ><a href="/index.php/display/admin">系统首页</a></li>
-                <li class="active"><a href="/index.php/display/oldmanList">老人管理</a></li>
+                <li><a href="/index.php/display/oldmanList">老人管理</a></li>
                 <li><a href="/index.php/display/nursingList">护理管理</a></li>
-                <li><a href="/index.php/display/receptionList">接待管理</a></li>
+                <li class="active"><a href="/index.php/display/receptionList">接待管理</a></li>
                 <li><a href="/index.php/display/accidentList">事故管理</a></li>
                 <li><a href="/index.php/display/employeeList">员工管理</a></li>
                 <li><a href="/index.php/display/roomList">房间管理</a></li>
@@ -53,34 +53,27 @@
             <table class="table table-striped table-bordered table-condensed">
                 <thead>
                 <tr>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
+                    <th><input type="checkbox" name=""/> </th>
+                    <th>来人姓名</th>
+                    <th>联系方式</th>
+                    <th>接待类别</th>
+                    <th>接待人</th>
+                    <th>接待时间</th>
+                    <th>接待描述</th>
+                    <th>操作</th>
                 </tr>
                 </thead>
                 <tr>
+                    <td><input type="checkbox" name=""/></td>
+                    <td>hello</td>
+                    <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                 </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
+
 
             </table>
         </div>

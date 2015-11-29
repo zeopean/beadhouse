@@ -53,33 +53,24 @@
             <table class="table table-striped table-bordered table-condensed">
                 <thead>
                 <tr>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
+                    <th><input type="checkbox" name=""/> </th>
+                    <th>姓名</th>
+                    <th>事故时间</th>
+                    <th>责任员工</th>
+                    <th>处理方案</th>
+                    <th>处理状态</th>
+                    <th>操作</th>
+
                 </tr>
                 </thead>
                 <tr>
+                    <td><input type="checkbox" name="" /> </td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
-                </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
+                    <td>hello</td>
                 </tr>
 
             </table>

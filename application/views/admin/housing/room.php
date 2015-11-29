@@ -53,34 +53,31 @@
             <table class="table table-striped table-bordered table-condensed">
                 <thead>
                 <tr>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
+                    <th><input type="checkbox" name="" /></th>
+                    <th>大厦</th>
+                    <th>楼层</th>
+                    <th>房号</th>
+                    <th>描述</th>
+                    <th>床位一</th>
+                    <th>床位二</th>
+                    <th>床位三</th>
+                    <th>床位四</th>
+                    <th>操作</th>
                 </tr>
                 </thead>
                 <tr>
+                    <td><input type="checkbox" name=""/> </td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                 </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
+
 
             </table>
         </div>

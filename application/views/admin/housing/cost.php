@@ -53,34 +53,28 @@
             <table class="table table-striped table-bordered table-condensed">
                 <thead>
                 <tr>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
+                    <th><input type="checkbox" name=""/></th>
+                    <th>出纳内容</th>
+                    <th>出纳人</th>
+                    <th>出纳金额</th>
+                    <th>执行人</th>
+                    <th>执行时间</th>
+                    <th>状态</th>
+                    <th>操作</th>
                 </tr>
                 </thead>
                 <tr>
+                    <td><input type="checkbox" name="" /> </td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+
                 </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
+
 
             </table>
         </div>

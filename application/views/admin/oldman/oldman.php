@@ -53,34 +53,40 @@
             <table class="table table-striped table-bordered table-condensed">
                 <thead>
                 <tr>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
-                    <th>表头</th>
+                    <th><input type="checkbox" name="" /></th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>民族</th>
+                    <th>身份证</th>
+                    <th>信仰</th>
+                    <th>籍贯</th>
+                    <th>房号</th>
+                    <th>管理员</th>
+                    <th>出生日期</th>
+                    <th>自理状态</th>
+                    <th>入住时间</th>
+                    <th>出院时间</th>
+                    <th>操作</th>
+
                 </tr>
                 </thead>
                 <tr>
+                    <td><input type="checkbox" name="" /> </td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
+                    <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                     <td>hello</td>
                 </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
-                <tr>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                <td>hello</td>
-                </tr>
+
 
             </table>
         </div>
