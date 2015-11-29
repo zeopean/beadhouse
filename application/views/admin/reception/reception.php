@@ -17,9 +17,14 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li ><a href="/index.php/display/admin">系统首页</a></li>
-                <li><a href="/index.php/display/oldmanList">老人管理</a></li>
+                <li class="active"><a href="/index.php/display/oldmanList">老人管理</a></li>
+                <li><a href="/index.php/display/nursingList">护理管理</a></li>
+                <li><a href="/index.php/display/receptionList">接待管理</a></li>
+                <li><a href="/index.php/display/accidentList">事故管理</a></li>
                 <li><a href="/index.php/display/employeeList">员工管理</a></li>
-                <li class="active"><a href="/index.php/display/roomList">养老院管理</a></li>
+                <li><a href="/index.php/display/roomList">房间管理</a></li>
+                <li><a href="/index.php/display/costList">费用管理</a></li>
+                <li><a href="/index.php/display/standardList">收费标准管理</a></li>
             </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">用户中心</a></li>

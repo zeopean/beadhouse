@@ -6,7 +6,7 @@
  * Time: 23:11
  */
 
-class Display extends CI_Controller
+class display extends CI_Controller
 {
     public function index()
     {
@@ -37,11 +37,16 @@ class Display extends CI_Controller
         $this->load->view('admin/oldman/accident');
     }
 
+    public function receptionList()
+    {
+        //来访管理
+        $this->load->view('admin/reception/reception');
+    }
 
-    public function tursingList()
+    public function nursingList()
     {
         //老人护理列表
-        $this->load->view('admin/oldman/tursing');
+        $this->load->view('admin/oldman/nursing');
 
     }
 

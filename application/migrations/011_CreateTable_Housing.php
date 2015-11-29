@@ -20,7 +20,6 @@ class Migration_CreateTable_Housing extends CI_Migration {
             'house_status'  =>  array('type'=>'INT' , 'unsigned'=>TRUE),                #入住状态
             'emp_id'    =>  array('type'=>'INT' , 'unsigned'=>TRUE),                    #负责职工标识
 
-
         ));
         $this->dbforge->add_key('id', TRUE);
         $this->dbforge->create_table('housing');

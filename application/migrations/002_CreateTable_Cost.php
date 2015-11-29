@@ -14,7 +14,7 @@ class Migration_CreateTable_Cost extends CI_Migration {
     {
         $this->dbforge->add_field(array(
             'id'        =>  array('type' => 'INT','constraint' => 5,'unsigned' => TRUE,'auto_increment' => TRUE),
-            'desc'      =>  array('type'=>'VARCHAR' , 'constraint'=>'100' ),        # 收费项描述
+            'des'      =>  array('type'=>'VARCHAR' , 'constraint'=>'100' ),        # 收费项描述
             'amount'    =>  array('type'=>'VARCHAR' , 'constraint'=>'10'),          # 金额
             'is_into'   =>  array('type'=>'INT' , 'constraint'=>'3'),               /** 此处待商榷 */
             'is_put'    =>  array('type'=>'INT' , 'constraint'=>'3'),
