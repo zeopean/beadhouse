@@ -25,6 +25,10 @@ class display extends CI_Controller
         $this->load->view('admin/login');
     }
 
+    /**
+     * 显示列表页面 start   ********************************************************************
+     */
+
     public function oldmanList()
     {
         //显示老人列表
@@ -98,8 +102,77 @@ class display extends CI_Controller
         $this->load->view('admin/reception/reception');
     }
 
+    /**
+     * 显示列表页面 end   ********************************************************************
+     */
+
+    /**
+     * 显示编辑页面 start   ********************************************************************
+     */
+
+    public function editOldman()
+    {
+        #编辑老人信息
+        $this->load->view('admin/oldman/editOldman');
+    }
+
+    public function editAccident()
+    {
+        #编辑老人事故信息
+        $this->load->view('admin/oldman/editAccident');
+    }
+
+    public function editNursing()
+    {
+        #编辑老人护理信息
+        $this->load->view('admin/oldman/editNursing');
+    }
+
+    public function editReception()
+    {
+        #编辑来访信息
+        $this->load->view('admin/reception/editReception');
+    }
+
+    public function editCost()
+    {
+        #编辑花费信息
+        $this->load->view('admin/housing/editCost');
+    }
+
+    public function editRoom()
+    {
+        #编辑房屋信息
+        $this->load->view('admin/housing/editRoom');
+    }
+
+    public function editStandard()
+    {
+        #编辑收费标准信息
+        $this->load->view('admin/housing/editStandard');
+    }
+
+    public function editAttendance()
+    {
+        #编辑员工出勤信息
+        $this->load->view('admin/emp/editAttendance');
+    }
+
+    public function editEmployee()
+    {
+        #编辑员工信息
+        $this->load->view('admin/emp/editEmployee');
+    }
+
+    public function editPerformance()
+    {
+        #编辑员工绩效
+        $this->load->view('admin/emp/editPerformance');
+    }
 
 
-
+    /**
+     * 显示编辑页面 end  ********************************************************************
+     */
 
 }

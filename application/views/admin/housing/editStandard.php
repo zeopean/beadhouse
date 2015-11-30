@@ -39,14 +39,37 @@
     <div class="col-md-12 main">
         <div class="col-md-12">
             <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">2013</a></li>
-                <li class="active">十一月</li>
+                <li><a href="#">收费标准</a></li>
+                <li class="active"><a href="#">编辑/添加</a></li>
             </ol>
         </div>
         <!--content start -->
-        <div class="col-md-12 content">
+        <div class="col-md-6 content">
+            <div class="form-group col-md-8">
+                <label for="name">收费项</label>
+                <input name="name" class="form-control" placeholder="请输入收费项"/>
+            </div>
 
+
+            <div class="form-group col-md-8">
+                <label for="name">金额</label>
+                <input name="name" class="form-control" placeholder="请输入房号"/>
+            </div>
+
+            <div class="form-group col-md-8">
+                <label for="name">开始执行时间</label>
+                <input name="name" class="form-control" placeholder="请输入名字"/>
+            </div>
+
+            <div class="form-group col-md-8">
+                <label for="name">执行结束时间</label>
+                <input name="name" class="form-control" placeholder="请输入名字"/>
+            </div>
+
+            <div class="form-group col-lg-10">
+                <label for="name">收费项描述</label>
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
         </div>
         <!--content end-->
     </div>

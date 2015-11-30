@@ -39,14 +39,46 @@
     <div class="col-md-12 main">
         <div class="col-md-12">
             <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">2013</a></li>
-                <li class="active">十一月</li>
+                <li><a href="#">接待管理</a></li>
+                <li class="active">编辑/添加</li>
             </ol>
         </div>
         <!--content start -->
-        <div class="col-md-12 content">
+        <div class="col-md-6 content">
+            <form action="" name="" role="form">
+                <div class="form-group col-md-8">
+                    <label for="name">来人姓名</label>
+                    <input name="name" class="form-control" placeholder="请输入来人姓名"/>
+                </div>
 
+
+                <div class="form-group col-md-8">
+                    <label for="name">来访类型</label><br/>
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-10">
+                    <label for="name">联系方式</label>
+                    <input name="name" class="form-control" placeholder="请输入房号"/>
+                </div>
+
+
+
+                <div class="form-group col-md-8">
+                    <label for="name">接待时间</label>
+                    <input name="name" class="form-control" placeholder="请输入名字"/>
+                </div>
+
+
+                <div class="form-group col-lg-8">
+                    <label for="name">接待描述</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+            </form>
         </div>
         <!--content end-->
     </div>

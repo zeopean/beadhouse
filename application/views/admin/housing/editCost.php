@@ -39,13 +39,45 @@
     <div class="col-md-12 main">
         <div class="col-md-12">
             <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">2013</a></li>
-                <li class="active">十一月</li>
+                <li><a href="#">收费管理</a></li>
+                <li class="active">编辑/添加</li>
             </ol>
         </div>
         <!--content start -->
-        <div class="col-md-12 content">
+        <div class="col-md-6 content">
+            <form role="form">
+            <div class="form-group col-md-8">
+                <label for="name">收费项</label>
+                <input name="name" class="form-control" placeholder="请输入收费项"/>
+            </div>
+
+
+            <div class="form-group col-md-8">
+                <label for="name">金额</label>
+                <input name="name" class="form-control" placeholder="请输入房号"/>
+            </div>
+
+            <div class="form-group col-md-8">
+                <label for="name">出纳人</label>
+                <input name="name" class="form-control" placeholder="请输入名字"/>
+            </div>
+
+            <div class="form-group col-md-8">
+                <label for="name">支出类型</label><br/>
+                <input type="radio" name="optionsRadios"   value="option1" checked>&nbsp; 支出
+                <input type="radio" name="optionsRadios"   value="option1" >&nbsp;收入
+            </div>
+
+            <div class="form-group col-md-8">
+                <label for="name">执行人</label>
+                <input name="name" class="form-control" placeholder="请输入名字"/>
+            </div>
+
+            <div class="form-group col-lg-10">
+                <label for="name">支出描述</label>
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+            </form>
 
         </div>
         <!--content end-->

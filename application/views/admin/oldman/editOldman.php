@@ -38,14 +38,74 @@
     <div class="col-md-12 main">
         <div class="col-md-12">
             <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">2013</a></li>
-                <li class="active">十一月</li>
+                <li><a href="#">老人管理</a></li>
+                <li class="active"><a href="#">添加/编辑</a></li>
             </ol>
         </div>
         <!--content start -->
-        <div class="col-md-12 content">
+        <div class="col-md-9 content">
+            <form action="" name="" role="form">
+                <div class="form-group col-md-6">
+                    <label for="name">姓名</label>
+                    <input name="name" class="form-control" placeholder="请输入名字"/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="name">民族</label><br/>
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                </div>
 
+                <div class="form-group col-md-6">
+                    <label for="name">性别</label><br/>
+                    <input type="radio" name="optionsRadios"   value="option1" checked="checked"/> 男
+                    <input type="radio" name="optionsRadios"   value="option1" /> 女
+                </div>
+
+
+
+
+                <div class="form-group col-md-6">
+                    <label for="name">身份证号</label>
+                    <input name="name" class="form-control" placeholder="请输入身份证号"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="name">房号</label>
+                    <input name="name" class="form-control" placeholder="请输入老人房号"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="name">籍贯</label>
+                    <input name="name" class="form-control" placeholder="请输入籍贯"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="name">现居地址</label>
+                    <input name="name" class="form-control" placeholder="请输入现居地址"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="name">房号</label>
+                    <input name="name" class="form-control" placeholder="请输入房号"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="name">宗教信仰</label>
+                    <input name="name" class="form-control" placeholder="请输入宗教信仰"/>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="name">入住时间</label>
+                    <input name="name" class="form-control" placeholder="请输入名字"/>
+                </div>
+
+                <div class="form-group col-lg-8">
+                    <label for="name">老人描述</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+            </form>
         </div>
         <!--content end-->
     </div>

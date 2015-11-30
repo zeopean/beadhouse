@@ -39,14 +39,58 @@
     <div class="col-md-12 main">
         <div class="col-md-12">
             <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">2013</a></li>
-                <li class="active">十一月</li>
+                <li><a href="#">房间管理</a></li>
+                <li class="active">编辑/添加</li>
             </ol>
         </div>
         <!--content start -->
         <div class="col-md-12 content">
+            <form action="" name="" role="form">
+                <div class="form-group col-md-4">
+                    <label for="name">大厦名</label>
+                    <input name="name" class="form-control" placeholder="请输入大厦名"/>
+                </div>
 
+
+                <div class="form-group col-md-4">
+                    <label for="name">楼层</label><br/>
+                    <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="name">房号</label>
+                    <input name="name" class="form-control" placeholder="请输入房号"/>
+                </div>
+
+
+                <div class="form-group col-md-4">
+                    <label for="name">床位</label><br/>
+                    <input type="radio" name="optionsRadios"   value="option1" checked>&nbsp; 床位一
+                    <input type="radio" name="optionsRadios"   value="option1" >&nbsp;床位二
+                    <input type="radio" name="optionsRadios"   value="option1" >&nbsp;床位三
+                    <input type="radio" name="optionsRadios"   value="option1" >&nbsp;床位四
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="name">入职时间</label>
+                    <input name="name" class="form-control" placeholder="请输入名字"/>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="name">离职时间</label>
+                    <input name="name" class="form-control" placeholder="请输入名字"/>
+                </div>
+
+
+                <div class="form-group col-lg-8">
+                    <label for="name">员工简介</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+            </form>
         </div>
         <!--content end-->
     </div>
