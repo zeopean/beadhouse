@@ -18,9 +18,6 @@
             <ul class="nav navbar-nav">
                 <li ><a href="/index.php/display/admin">系统首页</a></li>
                 <li><a href="/index.php/display/oldmanList">老人管理</a></li>
-                <li><a href="/index.php/display/nursingList">护理管理</a></li>
-                <li><a href="/index.php/display/receptionList">接待管理</a></li>
-                <li><a href="/index.php/display/accidentList">事故管理</a></li>
                 <li class="active"><a href="/index.php/display/employeeList">员工管理</a></li>
                 <li><a href="/index.php/display/roomList">房间管理</a></li>
                 <li><a href="/index.php/display/costList">费用管理</a></li>
@@ -38,8 +35,9 @@
 
         <!--main start-->
         <div class="col-12 main">
+
             <!--search start-->
-            <div class="col-12 search-nav">
+            <div class="col-12 search-nav search">
                 <i class="icon-search"></i>
                     <form class="well form-search">
                         <input type="text" class="input-medium search-query">

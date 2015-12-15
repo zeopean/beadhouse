@@ -56,17 +56,18 @@ class display extends CI_Controller
 
 
 
+
     public function standardList()
     {
         //收费标准列表
-        $this->load->view('admin/housing/standard');
+        $this->load->view('admin/standard/standard');
 
     }
 
 
     public function costList(){
         //花费列表
-        $this->load->view('admin/housing/cost');
+        $this->load->view('admin/cost/cost');
     }
 
     public function roomList()
@@ -137,7 +138,7 @@ class display extends CI_Controller
     public function editCost()
     {
         #编辑花费信息
-        $this->load->view('admin/housing/editCost');
+        $this->load->view('admin/cost/editCost');
     }
 
     public function editRoom()
@@ -149,7 +150,7 @@ class display extends CI_Controller
     public function editStandard()
     {
         #编辑收费标准信息
-        $this->load->view('admin/housing/editStandard');
+        $this->load->view('admin/standard/editStandard');
     }
 
     public function editAttendance()
